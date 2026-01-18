@@ -1,28 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Go-Live Challenge</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Font Awesome for social icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-  <header>
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="themeBtn">Toggle Theme</button>
+        </nav>
+    </header>
 
-    <h1>Welcome to Our Go-Live Demo!</h1>
-  </header>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm System Admin </h1>
+            <p>Web Developer | UI/UX Enthusiast | Interactive Web Designer</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
-  <main>
-    <p>This is a simple static web app deployed on <strong>GitHub Pages</strong>.</p>
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=400&q=80" alt="About Image">
+            <br/>
+            <br/>
+           
+            <p>Hello! I am a passionate web developer who loves creating interactive and visually appealing websites. I enjoy learning new technologies and designing projects that are both functional and beautiful.</p>
+        </div>
+    </section>
 
-    <button id="clickMeBtn">Click Me!</button>
-    <p id="message"></p>
-  </main>
+    <!-- Projects Section -->
+   <section id="projects">
+    <h1>Projects</h1>
+    <br/>
+    <div class="projects-container">
+        <div class="project-card">
+         <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Project Image 1">
+       
+        
 
-  <footer>
-    <p>© 2026 Go-Live Challenge Team</p>
-  </footer>
+            <div class="project-info">
+                <h3>Project One</h3>
+                <p>A responsive web app built with HTML, CSS, and JS.</p>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80" alt="Project Image 2">
+            <div class="project-info">
+                <h3>Project Two</h3>
+                <p>Interactive dashboard with charts and animations.</p>
+            </div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=400&q=80" alt="Project Image 3">
+            <div class="project-info">
+                <h3>Project Three</h3>
+                <p>Color palette generator with copy-to-clipboard feature.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-  <script src="script.js"></script>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>Email: <a href="mailto:System Admin @example.com">System Admin @example.com</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 System Admin . All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

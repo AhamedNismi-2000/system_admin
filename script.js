@@ -1,6 +1,5 @@
-const button = document.getElementById("clickMeBtn");
-const message = document.getElementById("message");
+const themeBtn = document.getElementById('themeBtn');
 
-button.addEventListener("click", () => {
-  message.textContent = "🎉 Congratulations! You clicked the button!";
+themeBtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
 });
